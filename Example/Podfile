@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RefluxCocoa_Example' do
+  pod 'RefluxCocoa', :path => '../'
+
+  target 'RefluxCocoa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
